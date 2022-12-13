@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "0-putchar.c"
+#include <main.h>
 
 /**
  * main - entry point
@@ -7,9 +8,9 @@
  */
 int main(void)
 {
-	char *holberton;
+	char 0-putchar*;
 
-	for (holberton = "Holberton\n"; *holberton != '\0'; ++holberton)
-		_putchar(*holberton);
+	for (0-putchar = "0-putchar\n"; *0-putchar != '\0'; ++0-putchar)
+		_putchar(*0-putchar);
 	return (0);
 }
