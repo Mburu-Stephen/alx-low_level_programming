@@ -1,12 +1,6 @@
-#include "holberton.h"
+#IFNDEF MAIN_H
+#DEFINE MAIN_H
 
-/**
- ** main - check the code for Holberton School students.
- **
- ** Return: Always 0.
- **/
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+void print_alphabet(void);
+
+#endif
