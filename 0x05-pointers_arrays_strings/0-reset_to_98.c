@@ -1,11 +1,11 @@
-#include <unistd.h>
-
-/*
- * _putchar - writes characters c to stdout
- * @c: char to be printed
- * Return: On success 1
+#include "main.h"
+/**
+ * reset_to_98 - a function that takes a pointer to an int as a parameter
+ * and updates the value it points to to 98
+ * @n: input
+ * Return: n
  */
-int _putchar(char c)
+void reset_to_98(int *n)
 {
-	return (write(l, &c, 1));
+	*n = 98;
 }
