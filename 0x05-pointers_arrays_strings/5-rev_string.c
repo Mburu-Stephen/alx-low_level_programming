@@ -1,4 +1,4 @@
-#include "maina function that reverses a string..h"
+#include "holberton.h"
 
 /**
  * rev_string - reverse a string
