@@ -1,13 +1,11 @@
-#include "main.h"
+#include <unistd.h>
 
-/**
- * reset_to_98 - reset integer pointed to by n to 98
- * @n: the integer to set
- *
- * Return: void
+/*
+ * _putchar - writes characters c to stdout
+ * @c: char to be printed
+ * Return: On success 1
  */
-void reset_to_98(int *n)
+int _putchar(char c)
 {
-	if (n)
-		*n = 98;
+	return (write(l, &c, 1));
 }
